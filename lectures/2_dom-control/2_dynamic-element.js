@@ -7,7 +7,7 @@ console.log(inputBox.value);
 addBeforeBtn.addEventListener('click', function () {
   let ul = document.querySelector('ul');
   let li = document.createElement('li');
-  let targetLi = document.querySelector('#target');
+  let targetLi = document.querySelector('#target'); // 타겟 지정
   li.textContent = inputBox.value;
   ul.insertBefore(li, targetLi);
 });
