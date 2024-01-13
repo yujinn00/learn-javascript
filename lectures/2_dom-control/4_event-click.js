@@ -17,4 +17,4 @@ function removeEventFunction() {
 
 btn2.removeEventListener('click', removeEventFunction);
 
-// 8분 10초
+// 8분 10초 보류
