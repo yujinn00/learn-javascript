@@ -9,12 +9,16 @@ btn2.addEventListener('click', function () {
   alert('addEventListener');
 });
 
-btn2.addEventListener('click', removeEventFunction);
+btn2.addEventListener('click', helloEvent1);
 
-function removeEventFunction() {
-  alert('addEventListenerrr');
+function helloEvent1() {
+  alert('addEventListener 1');
 }
 
-btn2.removeEventListener('click', removeEventFunction);
+btn2.addEventListener('click', helloEvent2);
 
-// 8분 10초 보류
+function helloEvent2() {
+  alert('addEventListener 2');
+}
+
+btn2.removeEventListener('click', removeEventFunction1);
