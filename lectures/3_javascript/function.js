@@ -7,3 +7,4 @@ function sayHello() {
 }
 sayHello();
 // 02:21
+// 20일에 전부 끝내기
