@@ -45,14 +45,17 @@
 // })();
 
 // // 화살표 표기법
-// const hello = (name) => `Hello, ${name}`;
-// const str = hello('짐코딩');
-// console.log(str);
 // /*
-// 화살표 표기법 특징
 // 1. function 예약어를 생략할 수 있음
 // 2. 함수에 매개변수가 하나 뿐이라면 괄호도 생략할 수 있음
 // 3. 함수 바디가 표현식 하나라면 중괄호와 return 문도 생략할 수 있음
 // */
+// const hello = (name) => `Hello, ${name}`;
+// const str = hello('짐코딩');
+// console.log(str);
 
-ㅁㄴㅇㄹ;
+// // 콜백 함수
+// let fruits = ['사과', '바나나', '딸기'];
+// fruits.forEach((item, index) => {
+//   console.log('item: ', item);
+// });
