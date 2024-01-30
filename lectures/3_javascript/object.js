@@ -1,5 +1,7 @@
 'use strict';
 
+// // Part 1
+
 // // 객체 리터럴 문법
 // const person = {
 //   name: '짐코딩',
@@ -103,3 +105,53 @@
 //   }
 // }
 // const person1 = new Person('김길동1', 1, '아무거나');
+
+// // Part 2
+
+// let username = '짐코딩';
+// console.log(username);
+// changeName(username);
+// console.log(username);
+
+// function changeName(name) {
+//   name = '홍길동';
+// }
+
+// console.log('==========');
+
+// let person1 = {
+//   name: '짐코딩',
+//   age: 25,
+// };
+// console.log('name2' in person1);
+// if ('name2' in person1) {
+//   console.log('존재합니다.');
+// } else {
+//   console.log('존재하지 않습니다.');
+// }
+
+// let person2 = { ...person1 }; // Spread Operator를 이용한 복사
+// let person2 = Object.assign({}, person1); // Object.assign() 함수를 이용한 복사
+// person2.name = '홍길동';
+// console.log(person1);
+// console.log(person2);
+
+// console.log(person);
+// changePersonName(person);
+// console.log(person);
+
+// function changePersonName(people) {
+//   people.name = '홍길동';
+//   people.age = 60;
+// }
+
+const person = {
+  name: '짐코딩',
+};
+console.log(person.hasOwnProperty('name'));
+console.log(Object.hasOwn(person, 'name'));
+
+console.log(person.name2);
+if (person.name2) {
+  console.log('True');
+}
