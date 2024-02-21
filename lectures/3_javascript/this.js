@@ -59,7 +59,21 @@ let printThis2 = printThis1.bind(person2); // bind() 함수는 단 한 번만 �
 printThis2();
 */
 
-setTimeout(function () {
-  alert('hello');
-}, 3000);
-// this => 12:12
+/*
+let person = {
+  name: '짐코딩',
+  age: 20,
+  hello: function () {
+    setTimeout(() => {
+      console.log(this);
+    }, 1000);
+    // let that = this;
+    // setTimeout(function () {
+    //   console.log(this);
+    //   console.log(that.name);
+    //   console.log(that.age);
+    // }, 1000);
+  },
+};
+person.hello();
+*/
